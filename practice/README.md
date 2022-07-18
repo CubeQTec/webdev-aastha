@@ -1,0 +1,1 @@
+This is the first practical task where I got to implement my HTML/CSS learnings practically. 

@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #151b29;
+    font-family: 'Koulen', cursive;
+    letter-spacing: 5px;
+    overflow: hidden;
+
+    /* font-family: 'Raleway', sans-serif; */
+
+
+}
+
+.navbar {
+    /* background: #151F29; */
+    background: #17212D;
+    padding: 70px 0;
+}
+
+.maindiv {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.childdiv {
+    width: 24%;
+    float: left;
+    margin: 0 1px;
+    display: inline;
+    font-size: 25px;
+}
+
+.childdiv a {
+    color: white;
+    font-size: 1em;
+    line-height: 1em;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    display: inline-block;
+    font-weight: 800;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.childdiv a.active {}
+
+.childdiv a:hover {
+    background: #F9DC5C;
+    color: #011936;
+    border: 2px solid #EAC435;
+    box-shadow: 0 0.7em 0.6em -0.4em #EAC435;
+    transform: translateY(-0.3em);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.section1,
+.section2,
+.section3,
+.section4 {
+    min-height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6em;
+    text-transform: uppercase;
+    font-weight: 800;
+
+}
+
+section:nth-child(odd) {
+    color: #151b29;
+}
+
+section:nth-child(even) {
+    color: #EDF7F6;
+}
+
+.section1 {
+    background-image: url('images/home2.jpg');
+}
+
+.section2 {
+    background-image: url('images/about2.jpg');
+}
+
+.section3 {
+    background-image: url('images/home.jpg');
+}
+
+.section4 {
+    background-image: url('images/service.jpg');
+}

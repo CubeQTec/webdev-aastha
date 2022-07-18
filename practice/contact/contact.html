@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/contact/contact.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="maindiv">
+            <div class="childdiv"><a class="active" href="/index.html">Home</a></div>
+            <div class="childdiv"><a href="/pricingPanel/about.html">About</a></div>
+            <div class="childdiv"><a href="/contact/contact.html">Contact</a></div>
+            <div class="childdiv"><a href="#service">Gallery</a></div>
+        </div>
+    </nav>
+    <!-- <div class="mailbutton">
+        <a href="mailto:aastharai821@gmail.com">Email me</a>
+    </div> -->
+    <div class="container">
+        <h2>Contact us</h2>
+        <form class="form-horizontal" action="/contact/formmsg.html">
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="email">Email:</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="pwd">Phone :</label>
+                <div class="col-sm-10">
+                    <table>
+                        <td>
+                            <select name="abc" id="select-td">
+                                <option value="abc">977</option>
+                                <option value="abc">44</option>
+                                <option value="abc">961</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="number" class="form-control" id="pwd" placeholder="Enter Phone Number "
+                                name="pwd">
+                        </td>
+
+                    </table>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="pwd">Queries :</label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" id="pwd" name="pwd"
+                        placeholder=" Write your queries here."></textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="submit-button">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
